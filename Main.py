@@ -17,7 +17,9 @@ workpath = os.getcwd()
 print(workpath)
 
 #for loop in range(10):
-#    numberoffile=len(getlist.Listfile(workpath=workpath))
-#    print(getlist.Listfile(workpath=workpath))
-#    add.Adding(workpath=workpath, number=numberoffile, appid=50)
+#    numberoffile=len(getlist.Listfile())
+#    print(getlist.Listfile())
+#    add.Adding(number=numberoffile, appid=50)
+#numberoffile=len(getlist.Listfile())
+#add.Adding(number=numberoffile, appid=50)
 reorder.Reorder()
