@@ -12,6 +12,7 @@ def Listgame():
     appid_list = []
     name_list = []
     isdlc_list = []
+    game_list = []
     for file in Listfile():
         f = open(file, "r")
         content=f.readlines()
@@ -24,7 +25,10 @@ def Listgame():
         appid_list.append(appid)
         name_list.append(name)
         isdlc_list.append(isdlc)
+        game_list.append((appid, name, isdlc, file))
         f.close()
     print(appid_list)
     print(name_list)
     print(isdlc_list)
+    print(game_list)
+    return game_list
